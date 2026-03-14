@@ -15,7 +15,7 @@ Working with latest Angular 18/19.
 To install this library with npm, run below command:
 
 ```sh
-$ npm install --save jsoneditor ang-jsoneditor
+$ npm install --save jsoneditor @echo-blue/ng-jsoneditor
 ```
 
 Example:
@@ -32,7 +32,7 @@ Import the standalone component as below:
 
 ```ts
 import { Component, ViewChild } from '@angular/core';
-import { JsonEditorComponent, JsonEditorOptions } from 'ang-jsoneditor';
+import { JsonEditorComponent, JsonEditorOptions } from '@echo-blue/ng-jsoneditor';
 
 @Component({
   selector: 'app-root',

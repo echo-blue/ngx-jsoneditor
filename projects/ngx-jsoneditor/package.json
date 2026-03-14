@@ -1,18 +1,19 @@
 {
-  "name": "ang-jsoneditor",
-  "version": "4.0.1",
+  "name": "@echo-blue/ngx-jsoneditor",
+  "version": "18.0.0",
+  "private": false,
   "license": "MIT",
-  "homepage": "https://github.com/mariohmol/ang-jsoneditor",
+  "homepage": "https://github.com/mariohmol/ngx-jsoneditor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mariohmol/ang-jsoneditor.git"
+    "url": "https://github.com/mariohmol/ngx-jsoneditor.git"
   },
   "author": "Mario Mol <mariohmol@gmail.com>, Manish Sodavadiya <manish_it56@yahoo.com>",
   "keywords": [
     "angular",
     "jsoneditor",
     "ang-jsoneditor",
-    "ng-jsoneditor",
+    "ngx-jsoneditor",
     "angular"
   ],
   "peerDependencies": {
