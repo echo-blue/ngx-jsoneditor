@@ -3,10 +3,10 @@ import { JsonEditorComponent, JsonEditorOptions } from '../../../projects/ng-jso
 import { ReactiveFormsModule, UntypedFormBuilder } from '@angular/forms';
 import { schema } from './schema.value';
 import { ShowComponent } from './show.component';
-import { CommonModule } from '@angular/common';
+
 
 @Component({
-  imports: [CommonModule, ReactiveFormsModule, JsonEditorComponent, ShowComponent],
+  imports: [ReactiveFormsModule, JsonEditorComponent, ShowComponent],
   selector: 'app-demo',
   templateUrl: './demo.component.html',
   styleUrls: ['./demo.component.css']
