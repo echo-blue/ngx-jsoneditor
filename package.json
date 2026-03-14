@@ -1,6 +1,6 @@
 {
   "name": "@echo-blue/ngx-jsoneditor",
-  "version": "18.0.1",
+  "version": "18.0.2",
   "private": false,
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "watch": "npm run build:lib -- --watch",
     "build:full": "npm run build:lib && npm run build:app",
     "publishnpm": "cp README.md projects/ngx-jsoneditor/README.md && npm run build:lib && cd dist/ngx-jsoneditor && npm publish",
-    "unpublish": "npm deprecate -f 'ngx-jsoneditor@18.0.1' 'this package has been deprecated'",
+    "unpublish": "npm deprecate -f 'ngx-jsoneditor@18.0.2' 'this package has been deprecated'",
     "test": "npm run test:dev && npm run e2e",
     "test:dev": "ng test --project ngx-jsoneditor-demo",
     "test:unit": "ng test",
