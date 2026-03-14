@@ -1,6 +1,6 @@
 {
   "name": "@echo-blue/ng-jsoneditor",
-  "version": "20.0.0",
+  "version": "21.0.0",
   "private": false,
   "license": "MIT",
   "homepage": "https://github.com/mariohmol/ng-jsoneditor",
@@ -17,8 +17,8 @@
     "angular"
   ],
   "peerDependencies": {
-    "@angular/common": "^20.3.18",
-    "@angular/core": "^20.3.18",
+    "@angular/common": "^21.2.4",
+    "@angular/core": "^21.2.4",
     "jsoneditor": "*"
   },
   "dependencies": {
