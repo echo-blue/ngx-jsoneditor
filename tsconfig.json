@@ -3,9 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "ang-jsoneditor": [
-        "./dist/ang-jsoneditor"
-      ]
+      "@echo-blue/ng-jsoneditor": [
+        "./dist/ng-jsoneditor"
+      ],
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

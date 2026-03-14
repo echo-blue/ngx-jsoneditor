@@ -4,18 +4,7 @@
 
 import JSONEditor from 'jsoneditor';
 
-import {
-  ChangeDetectionStrategy,
-  Component,
-  ElementRef,
-  EventEmitter,
-  Input,
-  OnDestroy,
-  OnInit,
-  Output,
-  ViewChild,
-  forwardRef
-} from '@angular/core';
+import { ChangeDetectionStrategy, Component, ElementRef, EventEmitter, Input, OnDestroy, OnInit, Output, ViewChild, forwardRef } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { IError, JsonEditorMode, JsonEditorOptions, JsonEditorTreeNode } from './jsoneditoroptions';
 
@@ -78,7 +67,7 @@ export class JsonEditorComponent implements ControlValueAccessor, OnInit, OnDest
     }
     const optionsCopy = Object.assign({}, optionsBefore);
 
-    // expandAll is an option only supported by ang-jsoneditor and not by the the original jsoneditor.
+    // expandAll is an option only supported by ng-jsoneditor and not by the the original jsoneditor.
     delete optionsCopy.expandAll;
     if (this.debug) {
       console.log(optionsCopy, this._data);
