@@ -14,19 +14,24 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "watch": "npm run build:lib -- --watch",
+
+    "prep": "rm package-lock.json && npm ci && npm run test && npm run build:full && npm start",
+
     "build": "ng build",
     "build:app": "npm run build:lib && ng build",
     "build:lib": "ng build --project @echo-blue/ngx-jsoneditor",
-    "watch": "npm run build:lib -- --watch",
     "build:full": "npm run build:lib && npm run build:app",
     "publishnpm": "cp README.md projects/ngx-jsoneditor/README.md && npm run build:lib && cd dist/ngx-jsoneditor && npm publish --access=public",
     "unpublish": "npm deprecate -f '@echo-blue/ngx-jsoneditor@18.0.4' 'this package has been deprecated'",
+
     "test": "npm run test:unit",
     "test:dev": "vitest",
     "test:unit": "vitest run",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "ports": "lsof -i tcp:4201",
+
     "reinstall": "rm package-lock.json && rm -rf node_modules && npm i",
     "rebuildsass": "npm rebuild node-sass"
   },
