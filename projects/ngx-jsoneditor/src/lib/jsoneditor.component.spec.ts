@@ -1,4 +1,5 @@
-import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { describe, beforeEach, it, expect } from 'vitest';
 
 import { JsonEditorComponent } from './jsoneditor.component';
 
@@ -6,12 +7,12 @@ describe('JsoneditorComponent', () => {
   let component: JsonEditorComponent;
   let fixture: ComponentFixture<JsonEditorComponent>;
 
-  beforeEach(waitForAsync(() => {
+  beforeEach(async () => {
     TestBed.configureTestingModule({
-      declarations: [ JsonEditorComponent ]
+      imports: [ JsonEditorComponent ]
     })
     .compileComponents();
-  }));
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(JsonEditorComponent);

@@ -6,7 +6,7 @@ Angular Json Editor (wrapper for [jsoneditor](https://github.com/josdejong/jsone
 
 [StackBlitz template](https://stackblitz.com/edit/ang-jsoneditor)
 
-Working with latest Angular 18/19.
+Working with latest Angular 18.
 
 ![Demo Image](/src/assets/printDemo.png)
 
@@ -15,7 +15,7 @@ Working with latest Angular 18/19.
 To install this library with npm, run below command:
 
 ```sh
-$ npm install --save jsoneditor @echo-blue/ng-jsoneditor
+$ npm install --save jsoneditor @echo-blue/ngx-jsoneditor
 ```
 
 Example:
@@ -32,7 +32,7 @@ Import the standalone component as below:
 
 ```ts
 import { Component, ViewChild } from '@angular/core';
-import { JsonEditorComponent, JsonEditorOptions } from '@echo-blue/ng-jsoneditor';
+import { JsonEditorComponent, JsonEditorOptions } from '@echo-blue/ngx-jsoneditor';
 
 @Component({
   selector: 'app-root',
@@ -169,6 +169,10 @@ Demo Project with a lot of different implementations (ngInit, change event and o
 [https://github.com/mariohmol/ang-jsoneditor/tree/master/src/app/demo)
 
 When publishing it to npm, look over this docs: https://docs.npmjs.com/misc/developers
+
+# Testing
+
+Unit tests now run with [Vitest](https://vitest.dev/). Use `npm run test:dev` for an interactive watch mode during development or `npm run test:unit` for a single CI-friendly execution. The legacy Karma/Jasmine setup has been removed.
 
 # Collaborate
 
