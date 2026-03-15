@@ -20,7 +20,6 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
-    "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
@@ -36,9 +35,6 @@
         "./dist/ngx-jsoneditor"
       ]
     }
-
-    // top-level 'await' expressions are only allowed when the 'module' option is set to 'es2022', 'esnext', 'system', 'node16', 'nodenext', or 'preserve',
-    // and the 'target' option is set to 'es2017' or higher.
   },
   "files": [
     "src/main.ts"
