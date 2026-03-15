@@ -1,14 +1,16 @@
 {
   "name": "@echo-blue/ngx-jsoneditor",
-  "version": "18.0.2",
+  "version": "18.0.3",
   "private": false,
   "license": "MIT",
-  "homepage": "https://github.com/mariohmol/ngx-jsoneditor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mariohmol/ngx-jsoneditor.git"
+    "url": "https://github.com/echo-blue/ngx-jsoneditor"
   },
-  "author": "Mario Mol <mariohmol@gmail.com>, Manish Sodavadiya <manish_it56@yahoo.com>",
+  "author": "https://www.linkedin.com/in/mariomol",
+  "contributors": [
+    "https://github.com/echo-blue"
+  ],
   "keywords": [
     "angular",
     "jsoneditor",

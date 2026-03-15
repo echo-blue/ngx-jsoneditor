@@ -39,6 +39,8 @@ jobs:
         with:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
+      - run: npm ci
+      - run: npm install -g @angular/cli@18
       - run: npm run publishnpm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
