@@ -1,6 +1,6 @@
 {
   "name": "@echo-blue/ngx-jsoneditor",
-  "version": "20.0.0",
+  "version": "20.0.1",
   "private": false,
   "license": "MIT",
   "repository": {
@@ -21,7 +21,7 @@
     "build:lib": "ng build --project @echo-blue/ngx-jsoneditor",
     "build:full": "npm run build:lib && npm run build:app",
     "publishnpm": "cp README.md projects/ngx-jsoneditor/README.md && npm run build:lib && cd dist/ngx-jsoneditor && npm publish --access=public",
-    "unpublish": "npm deprecate -f '@echo-blue/ngx-jsoneditor@20.0.0' 'this package has been deprecated'",
+    "unpublish": "npm deprecate -f '@echo-blue/ngx-jsoneditor@20.0.1' 'this package has been deprecated'",
     "test": "npm run test:unit",
     "test:dev": "vitest",
     "test:unit": "vitest run",
